@@ -15,6 +15,7 @@ class StudentsController < ApplicationController
      else
        @student.active = true
     end
+    @student.active
     #redirect_to activate_student_path(@student)
   end 
   private
